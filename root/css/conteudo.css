@@ -1,0 +1,85 @@
+negrito {
+    font-weight: bold;
+}
+
+aside {
+    background-color: rgb(29, 44, 175);
+}
+
+header {
+    background-color: rgb(6, 55, 119);
+}
+
+main {
+    background-color: rgb(66, 30, 196);
+}
+
+nav {
+    background-color: rgb(67, 57, 105);
+}
+
+article {
+    background-color: rgb(84, 101, 196);
+}
+
+footer {
+    background-color: rgb(84, 8, 184);
+}
+
+figure {
+    background-color: rgb(143, 157, 216);
+}
+
+a {
+    color: rgb(195, 189, 247);
+}
+
+body {
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2021/05/ceu-deserto-do-saara.jpg);
+}
+
+p {
+    text-align: left;
+    border-color: rgb(5, 2, 37);
+    border-style: solid;
+    border-width: 4px;
+}
+
+figure {
+    background-color: grey;
+    text-align: left;
+
+}
+
+figcaption {
+    font-style: italic;
+    text-align: left;
+    border-color: rgb(19, 21, 160);
+    border-style: solid;
+    border-width: 5px;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(195, 189, 247);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-decoration: underline;
+}
+
+img {
+    border-color: rgb(9, 10, 82);
+    border-style: solid;
+    border-width: 5px;
+}
+
+li {
+    color: rgb(195, 189, 247);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
