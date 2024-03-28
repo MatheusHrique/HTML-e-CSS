@@ -11,14 +11,35 @@ texto {
 	padding-left: 50px;
 }
 
+.container {
+    margin: 0 auto;
+    width: 940px;
+	margin-top: 10px;
+	margin-right: 10px;
+    background-color: #003066;
+	padding-left: 50px;
+}
+
 h1 {
 	padding-top: 50px;
+}
+
+p:first-letter { 
+	font-weight: bold; 
 }
 
 li,
 td {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: Grey;
+}
+
+h1 + p { 
+	text-indent: 0;
+}
+
+p:first-line {
+	font-variant: small-caps;
 }
 
 titulo {
@@ -74,6 +95,7 @@ figcaption {
 	font-weight: bold;
 	text-decoration: underline;
 	text-align: center;
+	margin: 5px, 5px;
 }
 
 .carrinho {

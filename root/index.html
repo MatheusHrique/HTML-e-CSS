@@ -36,7 +36,8 @@
 				<div class="container destaque">
 					<section class="busca">
 						<h1>Busca</h1>
-						<form class="cor2"><input class="cor1" type="search">
+						<form class="cor2" action="http://www.google.com.br/search" id="form-busca">
+							<input class="cor1" type="search" name="q" id="q">
 							<input class="lupa" type="image" src="img/lupa.png">
 						</form>
 					</section>
@@ -45,15 +46,29 @@
 							<negrito>*Menu:</negrito>
 						</h2> <br>
 						<ul> <!-- Coisas da aula 1 -->
-							<li><a href="NãoAulas/loPapagaio/papagaio.html">-Aula 1</a></li>
-							<li><a href="NãoAulas/loPapagaio/papagaio.html">-Aula 2</a></li>
+							<li><a href="#">Aula 1</a>
+								<ul>
+									<li><a href="Aulas/Aula 1/FWeb23-1N-MatheusHenriqueJustinCaetano-Exercicio1.html#elTp">Exercício 1</a></li>
+									<li><a href="Aulas/Aula 1/FWeb23-1N-MatheusHenriqueJustinCaetano-Exercicio2.html">Exercício 2</a></li>
+									<li><a href="Aulas/Aula 1/exer3.html">Exercício 3</a></li>
+									<li><a href="Aulas/Aula 1/exer4.html">Exercício 4</a></li>
+								</ul></li>
+							<li><a href="#">Aula 2</a>
+								<ul>
+								<li><a href="NãoAulas/loPapagaio/papagaio.html">Exercício 1</a></li>
+								<li><a href="NãoAulas/loPapagaio/papagaio.html">Exercício 2</a></li>
+								<li><a href="NãoAulas/loPapagaio/papagaio.html">Exercício 3</a></li>
+								<li><a href="NãoAulas/loPapagaio/papagaio.html">Exercício 4</a></li>
+								</ul></li>
 						</ul>
 					</section>
+					
+					<!-- <img src="./img/papagaio-1.png" alt="Imagem de destaque" width="200" height="200"> -->
 				</div>	
+				
 			</nav>
 		</aside>
 		<hr />
-
 		
 		<div class="container paineis">
 			<section class="painel aula1">
@@ -71,7 +86,7 @@
 				<h2 class="peq">
 					<negrito>*Aula 2:</negrito>
 				</h2> <br>
-				<ul> <!-- Coisas da aula 1 -->
+				<ul> <!-- Coisas da aula 2 -->
 					<li><a href="NãoAulas/loPapagaio/papagaio.html"><figure><img src="img/aula1/num1.png"><figcaption>Exercicio-1</figcaption></figure></a></li>
 					<li><a href="NãoAulas/loPapagaio/papagaio.html"><figure><img src="img/aula1/num2.png"><figcaption>Exercicio-2</figcaption></figure></a></li>
 					<li><a href="NãoAulas/loPapagaio/papagaio.html"> <figure><img src="img/aula1/num3.png"><figcaption>Exercicio-3</figcaption></figure></a></li>
@@ -81,11 +96,10 @@
 		</div>
 		<hr />
 
-
 			<figure>
-				<a href="NãoAulas/loPapagaio/papagaio.html"><img src="./img/papagaio.png" width="200" height="200"
+				<a href="NãoAulas/loPapagaio/papagaio.html"><img src="./img/papagaio-1.png" width="200" height="200" name="paragaio" id="paragaio"
 						alt="papagaio.png"></a>
-				<figcaption> ***OLAR PESSOAL!*** </figcaption>
+				<figcaption> ***OLAR PESSOAL!***<br><a href="#" class="pause">Pausar/Play</a></figcaption>
 			</figure>
 
 			<audio controls autoplay>
@@ -99,6 +113,7 @@
 		<footer>
 		</footer>
 
+		<script src="js/index.js"></script>
 </body>
 
 </html>

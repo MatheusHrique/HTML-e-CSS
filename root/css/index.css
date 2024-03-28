@@ -99,7 +99,7 @@ header {
 
 nav {
     background-color: rgb(67, 57, 105);
-    height: 350px;
+    height: 400px;
 }
 
 article {
@@ -148,6 +148,28 @@ figcaption {
     text-decoration: underline;
     text-align: center;
 }
+
+
+.menu-conteudo li ul {
+    display: none; /*por padrão escondida*/
+} 
+   
+.menu-conteudo li:hover ul {
+   display: block; /*no mouse aparece*/
+} 
+   
+.menu-conteudo ul ul li {
+    background-color: #0c2091;
+}
+
+
+.menu-opcoes a:hover { 
+    color: #007dc6;
+} 
+
+.menu-opcoes a:active { 
+    color: #867dc6; 
+}    
 
 h1,
 h2,
