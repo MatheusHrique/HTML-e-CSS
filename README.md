@@ -4,3 +4,4 @@ OBSERVAÇÕES A CONSIDERAR:
 2- Terminar de fazer ajustes dos exercicios da aula 6;
 3- Terminar de fazer os ultimos exercicios da aula 8 (3, 4);
 4- Terminar de fazer os exercicios da aula 9 (6, 7 e a ultima).
+5- Colocar no html.blog a atividade do grito
