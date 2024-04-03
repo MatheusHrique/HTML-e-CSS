@@ -12,11 +12,11 @@ texto {
 }
 
 .container {
-    margin: 0 auto;
-    width: 940px;
+	margin: 0 auto;
+	width: 940px;
 	margin-top: 10px;
 	margin-right: 10px;
-    background-color: #003066;
+	background-color: #003066;
 	padding-left: 50px;
 }
 
@@ -24,8 +24,8 @@ h1 {
 	padding-top: 50px;
 }
 
-p:first-letter { 
-	font-weight: bold; 
+p:first-letter {
+	font-weight: bold;
 }
 
 li,
@@ -34,11 +34,15 @@ td {
 	color: Grey;
 }
 
-h1 + p { 
+h1+p {
 	text-indent: 0;
 }
 
 p:first-line {
+	font-variant: small-caps;
+}
+
+:not(p)+p:first-line {
 	font-variant: small-caps;
 }
 

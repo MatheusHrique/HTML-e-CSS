@@ -41,6 +41,8 @@ header {
     margin-right: 10px;
     width: 230px;
     float: left;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .busca h2,
@@ -106,10 +108,6 @@ article {
     background-color: rgb(84, 101, 196);
 }
 
-footer {
-    background-color: rgb(84, 8, 184);
-}
-
 figure {
     background-color: rgb(143, 157, 216);
 }
@@ -151,25 +149,27 @@ figcaption {
 
 
 .menu-conteudo li ul {
-    display: none; /*por padrão escondida*/
-} 
-   
+    display: none;
+    /*por padrão escondida*/
+}
+
 .menu-conteudo li:hover ul {
-   display: block; /*no mouse aparece*/
-} 
-   
+    display: block;
+    /*no mouse aparece*/
+}
+
 .menu-conteudo ul ul li {
     background-color: #0c2091;
 }
 
 
-.menu-opcoes a:hover { 
+.menu-opcoes a:hover {
     color: #007dc6;
-} 
+}
 
-.menu-opcoes a:active { 
-    color: #867dc6; 
-}    
+.menu-opcoes a:active {
+    color: #867dc6;
+}
 
 h1,
 h2,
@@ -269,15 +269,18 @@ header {
 }
 
 .aula1 {
+    box-shadow: inset 1px 1px 4px;
     float: left;
     background-color: #1132c2;
 }
 
-.aula1 img, .aula2 img{
+.aula1 img,
+.aula2 img {
     width: 25px;
 }
 
 .aula2 {
+    box-shadow: inset 1px 1px 4px;
     float: right;
     background-color: #0643a0;
 }
@@ -302,4 +305,79 @@ header {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
+}
+
+
+footer {
+    background-color: rgb(108, 33, 206);
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links li a {
+    display: inline-block;
+}
+
+.social-links li img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+.menu-conteudo li li a:before {
+    content: '- ';
+}
+
+.painel {
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+}
+
+.painel h2 {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.aula1 {
+    background: linear-gradient(#2057cc, #641797);
+}
+
+.aula2 {
+    background: linear-gradient(#641797, #2057cc);
+}
+
+.painel li:hover {
+    box-shadow: 0 0 5px #333;
+    transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+    background-color: rgba(177, 100, 221, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+}
+
+.painel li:hover {
+    transform: scale(1.2);
+}
+
+.painel li:hover {
+    transform: scale(1.2) rotate(-5deg);
 }
