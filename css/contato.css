@@ -1,0 +1,134 @@
+a {
+	color: rgb(195, 189, 247);
+}
+
+h1,
+h2,
+th,
+texto {
+	color: rgb(195, 189, 247);
+	text-shadow: 0.1em 0.1em 0.2em black;
+	padding-left: 50px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #003066;
+	padding-left: 50px;
+}
+
+h1 {
+	padding-top: 50px;
+}
+
+p:first-letter {
+	font-weight: bold;
+}
+
+li,
+td {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: Grey;
+}
+
+h1+p {
+	text-indent: 0;
+}
+
+p:first-line {
+	font-variant: small-caps;
+}
+
+:not(p)+p:first-line {
+	font-variant: small-caps;
+}
+
+titulo {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(195, 189, 247);
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2402439-noite-colorido-estrelado-ceu-fundo-gratis-vetor.jpg);
+	font-size: 1cm;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+bordado {
+	border-color: rgb(114, 56, 223);
+	border-style: solid;
+	border-width: 5px;
+}
+
+bordadotop {
+	border-color: rgb(6, 42, 77);
+	border-style: solid;
+	border-width: 8px;
+}
+
+body {
+	background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2021/05/ceu-deserto-do-saara.jpg);
+	color: rgb(195, 189, 247);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+	background-color: rgb(6, 55, 119);
+}
+
+nav {
+	background-color: rgb(67, 57, 105);
+}
+
+main {
+	background-color: rgb(66, 30, 196);
+}
+
+li {
+	color: rgb(195, 189, 247);
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+figcaption {
+
+	font-style: italic;
+	border-color: rgb(19, 21, 160);
+	border-style: solid;
+	border-width: 5px;
+	font-size: larger;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	margin: 5px, 5px;
+}
+
+.carrinho {
+	background: url(https://s35949.pcdn.co/wp-content/uploads/2016/12/papagaio-1600x900.jpg) no-repeat top right;
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: right;
+	width: 140px;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu opcoes a {
+	color: #003366;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.left {
+	flex: 2;
+	padding: 20px;
+}
+
+.right {
+	flex: 2;
+	padding: 20px;
+}

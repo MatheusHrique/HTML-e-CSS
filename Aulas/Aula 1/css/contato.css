@@ -1,0 +1,33 @@
+
+a{
+	color: red;
+}
+
+h1, h2, th, texto{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+li, td{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: Grey;
+}
+titulo{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(248, 0, 0);
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2402439-noite-colorido-estrelado-ceu-fundo-gratis-vetor.jpg);
+	font-size: 1cm;
+}
+bordado{
+	border-color:rgb(8, 61, 110);
+	border-style:solid;
+	border-width:3px;
+}
+bordadotop{
+	border-color:rgb(6, 42, 77);
+	border-style:solid;
+	border-width:8px;
+}
+body{
+	background-color: rgb(22, 74, 143);
+}
