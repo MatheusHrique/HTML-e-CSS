@@ -1,1 +1,0 @@
-index serve como capa, sendo a "main" do html, a "primeira página"
