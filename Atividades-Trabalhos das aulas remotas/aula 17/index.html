@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div container>
+        <div class="titulo">
+            Aula 17 - Angular Js
+        </div>
+        <div data-ng-app="" data-ng-init="nome='Matheus Henrique'">
+            <hr>
+            <h2><b>1) Primeira aplicação Angular JS:</b></h2>
+            <p>O resultado é : {{ 10 + 10 }}</p>
+            <hr>
+            <h2><b>2) Segunda aplicação Angular JS:</b></h2>
+            <p>Nome: <input type="text" data-ng-model="texto" placeholder="Digite seu texto aqui"></p>
+            <h1>Texto: {{texto}}</h1>
+            <hr>
+            <h2><b>3) Terceira aplicação Angular JS:</b></h2>
+            <span data-ng-init="sobrenome='Justin Caetano'">
+                <h1>Ola {{nome + " " + sobrenome}}</h1>
+                <hr>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+
+</html>
