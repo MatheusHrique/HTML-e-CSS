@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Testar validação</title>
+</head>
+<body>
+    <h1>Formulário recebido:</h1>
+    <p id="nome"></p>
+    <p id="email"></p>
+    <p id="mensagem"></p>
+
+    <script>
+        // obtem os parâmetros da URL
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // obtem os valores dos campos do formulário
+        const nome = urlParams.get('nome');
+        const email = urlParams.get('email');
+        const mensagem = urlParams.get('areaMensagem');
+
+        // exibe os valores na página
+        document.getElementById('nome').textContent = 'Nome: ' + nome;
+        document.getElementById('email').textContent = 'Email: ' + email;
+        document.getElementById('mensagem').textContent = 'Mensagem: ' + mensagem;
+    </script>
+</body>
+</html>

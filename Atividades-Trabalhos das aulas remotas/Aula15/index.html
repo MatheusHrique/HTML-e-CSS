@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Aula 15</title>
+</head>
+
+<body>
+
+    <div class="owl-carousel">
+        <div> <img src="./img/pag1.jpg" alt="img 1"> </div>
+        <div> <img src="./img/pag2.jpg" alt="img 2"> </div>
+        <div> <img src="./img/pag3.jpg" alt="img 3"> </div>
+        <div> <img src="./img/pag4.jpg" alt="img 4"> </div>
+        <div> <img src="./img/pag5.jpg" alt="img 5"> </div>
+        <div> <img src="./img/pag6.jpg" alt="img 6"> </div>
+        <div> <img src="./img/pag7.jpg" alt="img 7"> </div>
+    </div>
+
+    <div class="formulario">
+        <h1>Formulário!</h1>
+        <div class="input_container">
+            <form name="formValidation" id="formValidation" action="testarValidacao.html">
+                <div class="input-row">
+                    <input type="text" name="nome" placeholder="Nome*" required>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="email" placeholder="Email*" required>
+                </div>
+                <div class="input-row">
+                    <textarea name="areaMensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+                <div class="input-row">
+                    <input type="submit" value="Testar validação">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="principal"></div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"> </script>
+</body>
+
+</html>

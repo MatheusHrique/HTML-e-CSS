@@ -1,0 +1,35 @@
+.parallax-window {
+  height: 500px;
+  width: 600px;
+  background: transparent;
+  max-width: 100%;
+}
+
+.container,
+.sub-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 8px;
+}
+
+.sub-container {
+  justify-content: center;
+}
+
+#space {
+  max-width: 100%;
+  margin-top: 200px;
+  width: 80%;
+  height: 80%;
+  margin-left: 9%;
+  
+}
+
+body {
+  font-family: Comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(195, 189, 247);
+  text-shadow: 0.1em 0.1em 0.2em black;
+  text-decoration: underline;
+  background-image: url("../img/imagemdefundo.png");
+}
