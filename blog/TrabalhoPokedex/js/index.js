@@ -24,7 +24,7 @@ async function buscarPokemon() {
 
 async function reproduzirSom() {
     const pokemonInpute = document.getElementById("pokemonInput").value.toLowerCase();
-    const urlSom = `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/${pokemonInpute}.ogg`;
+    const urlSom = `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/${pokemonInpute}.ogg`;
 
     try {
         const audio = new Audio(urlSom);
