@@ -1,0 +1,31 @@
+https://labs.phaser.io/edit.html?src=src\games\snake\part7.js
+
+
+// let array = [1, 2, 3, 4, 5];
+// let primeiroElemento = array.shift();
+// console.log(array); // Saída: [2, 3, 4, 5]
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+
+let setas = [LEFT, UP, DOWN, LEFT, RIGHT, UP];
+
+summonarAsSetas(){
+	if(seta.length!=6){
+		int num=getRandomInt();	
+	}
+}
+
+
+if(keyPressed=="setas[0]" KeyComming){ // KeyComming acertado corretamente
+ setas.shift();
+ summonarAsSetas
+ // ativar sprite de acerto certo de key
+}
+if(KeyPressed && KeyComming){ // Sem KeyComming, mas KeyPressed é pressionado, acontece um miss
+ // Ativar sprite miss, nada acontece
+}

@@ -1,0 +1,63 @@
+{
+  "Usuarios": [
+    {
+      "nome": "Roger",
+      "idade": 69,
+      "cpf": "123.213.123-54",
+      "telefone": "+55 (51) 94343-3233"
+    },
+    {
+      "nome": "Mathias",
+      "idade": 34,
+      "cpf": "545.213.123-54",
+      "telefone": "+55 (51) 21353-3233"
+    },
+    {
+      "nome": "Joseph",
+      "idade": 23,
+      "cpf": "343.213.123-54",
+      "telefone": "+55 (51) 86543-3233"
+    },
+    {
+      "nome": "Jotaro",
+      "idade": 50,
+      "cpf": "765.213.123-54",
+      "telefone": "+55 (51) 32443-3233"
+    },
+    {
+      "nome": "Dio",
+      "idade": 667,
+      "cpf": "454.343.122-53",
+      "telefone": "+55 (51) 12343-6233"
+    }
+  ],
+  "Cursos": [
+    {
+      "Japonês": [
+        "João",
+        "Maria",
+        "Pedro"
+      ],
+      "Português": [
+        "Fulano",
+        "Beltrano",
+        "Ciclano"
+      ],
+      "Inglês": [
+        "Potano",
+        "Metano",
+        "Neclano"
+      ],
+      "Espanhol": [
+        "Putano",
+        "Norlando",
+        "Yolango"
+      ],
+      "Francês": [
+        "Gonald",
+        "Yogold",
+        "Popete"
+      ]
+    }
+  ]
+}

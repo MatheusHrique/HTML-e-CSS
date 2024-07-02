@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta na hora da pokédex</title>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+
+    <audio autoplay loop>
+        <source src="./audio/backgroundmusic.mp3" type="audio/mpeg">
+        <!-- Música de fundo -->
+    </audio>
+
+    <div class="container">
+
+        <div class="options">
+
+            <div class="titulo">
+                Lo pokedex
+            </div>
+
+            <div class="pokedex">
+                <input type="text" id="pokemonInput" placeholder="Digite o nome ou número do Pokémon">
+                <button onclick="buscarPokemon()">Buscar</button>
+                <button onclick="reproduzirSom()">Reproduzir Som</button>
+                <div class="pokemon-info">
+                    <h2 id="pokemonnome"></h2>
+                    <p id="pokemontipo"></p>
+                    <p id="pokemonpeso"></p>
+                    <p id="pokemonaltura"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="pokedex">
+            <figure>
+                <img id="pokemonimagem" src="" alt="a">
+            </figure>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
